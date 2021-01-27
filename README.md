@@ -1,10 +1,10 @@
 # Particle-Classification
 
-Overview: https://www.kdd.org/kdd-cup/view/kdd-cup-2004/Data
+Overview: https://www.kdd.org/kdd-cup/view/kdd-cup-2004/Intro
 
 The goal of this project is to learn a classification rule that differentiates between two types of particles generated in high energy collider experiments. It is a binary classification problem with 78 attributes. The data set has 50,000 examples. Our task is to build a classification model that optimizes ROC area (maximize).
 
-In this project, built Logistic Regression (with and without interaction terms), Random Forest and Gradient Boosting models. 
+We trained the following models: Logistic Regression (with and without interaction terms), Random Forest and Gradient Boosting models. 
 
 Logistic Regression model without interaction terms resulted in AUC value of 0.7915 and Logistic Regression model with interaction terms resulted in AUC value of 0.7912.
 We also built a Random Forest classifier to classify the particle types that resulted in a higher AUC value of 0.8081.
